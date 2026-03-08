@@ -1,0 +1,16 @@
+.skills-container {
+  padding: 40px;
+}
+
+.skills-input {
+  padding: 10px;
+  width: 300px;
+  margin-right: 10px;
+}
+
+.skills-btn {
+  padding: 10px 20px;
+  background: #2563eb;
+  color: white;
+  border: none;
+}
