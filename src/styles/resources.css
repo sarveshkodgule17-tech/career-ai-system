@@ -1,0 +1,70 @@
+.resources-page {
+  min-height: calc(100vh - 65px);
+  padding: 40px;
+  max-width: 900px;
+  margin: 0 auto;
+  animation: fadeInUp 0.4s ease forwards;
+}
+
+.resources-header {
+  margin-bottom: 32px;
+}
+
+.resources-header h1 {
+  font-size: 26px;
+  font-weight: 800;
+  color: #f1f5f9;
+}
+
+.resources-header p {
+  color: #64748b;
+  font-size: 15px;
+  margin-top: 4px;
+}
+
+.resources-btn {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 13px 24px;
+  background: linear-gradient(135deg, #6366f1, #818cf8);
+  border: none;
+  border-radius: 10px;
+  color: white;
+  font-size: 15px;
+  font-weight: 600;
+  font-family: 'Inter', sans-serif;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  margin-bottom: 32px;
+}
+
+.resources-btn:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 24px rgba(99, 102, 241, 0.4);
+}
+
+.resources-content {
+  background: rgba(255, 255, 255, 0.04);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  border-radius: 16px;
+  padding: 28px;
+}
+
+.resources-text {
+  white-space: pre-wrap;
+  color: #cbd5e1;
+  font-size: 14px;
+  line-height: 1.8;
+}
+
+.resources-empty {
+  text-align: center;
+  padding: 48px 20px;
+  color: #64748b;
+}
+
+.resources-empty .empty-icon {
+  font-size: 44px;
+  margin-bottom: 14px;
+}
